@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE library SYSTEM "assignment1.dtd">
+<library>
+    <location type="Egypt">cairo</location>
+    <description> &libraryInfo; </description>
+    <librarian>Esraa</librarian>
+    <books>
+        <book title="manage">
+            <ISBN>12345698655</ISBN>
+            <author>Esraa magdy</author>
+            <preface><![CDATA[
+                 String name = "esraa";
+                 System.out.printlin("esraa"); 
+            ]]></preface>
+            <parts>
+                <part>
+                    <title subTitle="head">part 1</title>
+                   
+                    <chapters>
+                        <chapter>
+                            <title>chapter1</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                         <chapter>
+                            <title>chapter2</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+                <part>
+                    <title>part 2</title>
+                    <chapters>
+                      <chapter>
+                            <title>chapter1</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                   <section>
+                                    <content>Esraa</content>
+                                </section>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                         <chapter>
+                            <title>chapter2</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+                <part>
+                    <title>part 3</title>
+                    <chapters>
+                        <chapter>
+                            <title>chapter3</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                 <section>
+                                    <content>Esraa</content>
+                                </section>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+        <book title="manage">
+            <ISBN>12345698655</ISBN>
+            <author>Esraa</author>
+            <preface><![CDATA[
+                 String name = "esraa";
+                 System.out.printlin("esraa"); 
+            ]]></preface>
+            <parts>
+                <part>
+                    <title>part 1</title>
+                    <chapters>
+                        <chapter>
+                            <title>chapter1</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                 <section>
+                                    <content>esraa</content>
+                                </section>
+                                <section>
+                                    <content>esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+        <book title="manage">
+            <ISBN>12345698655</ISBN>
+            <author>Esraa magdy</author>
+            <preface><![CDATA[
+                 String name = "esraa";
+                 System.out.printlin("esraa"); 
+            ]]></preface>
+            <parts>
+                <part>
+                    <title>part 1</title>
+                    <chapters>
+                        <chapter>
+                            <title>chapter1</title>
+                            <summary>The Silent Witness" by Jane Collins is a mystery or thriller.</summary>
+                            <sections>
+                                 <section>
+                                    <content>Esraa</content>
+                                </section>
+                                <section>
+                                    <content>Esraa</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+    </books>
+</library>

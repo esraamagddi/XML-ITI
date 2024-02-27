@@ -1,0 +1,22 @@
+<!ELEMENT library (location, description, librarian, books)>
+<!ELEMENT location     (#PCDATA)>
+<!ELEMENT description  (#PCDATA)>
+<!ELEMENT librarian    (#PCDATA)>
+<!ELEMENT books (book+)>
+<!ELEMENT book (title, author, preface, parts)>
+<!ELEMENT author      (#PCDATA)>
+<!ELEMENT preface     (#PCDATA)>
+<!ELEMENT parts (part+)>
+<!ELEMENT part (chapters)>
+<!ELEMENT chapters (chapter+)>
+<!ELEMENT chapter (title, summary, sections)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT sections (section+)>
+<!ELEMENT section (conetnt)>
+<!ELEMENT conetnt (#PCDATA)>
+
+<!ATTLIST title subTitle CDATA>
+<!ATTLIST book title CDATA #REQUIRED>
+<!ATTLIST title subTitle CDATA >
+<!ATTLIST location type (Egypt|US) "Egypt">
+<!ENTITY libraryInfo SYSTEM "libraryInfo.txt">
